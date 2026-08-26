@@ -1,5 +1,13 @@
 # VIN GROUP ERP — Go-Live Testing Checklist
 
+> Run after both Apps Script New Version deployment and Vercel redeployment.
+
+- [ ] Settings shows **Connected & Live**, spreadsheet name, Sheet link, last connection and last data update
+- [ ] Add, edit and deactivate one Product master; verify `Products` sheet
+- [ ] Add, edit and delete one test user; verify deleted-user login is denied
+- [ ] Upload a small company logo and save the company profile
+- [ ] Test SystemMaster website, phone and email links on desktop and mobile
+
 ## Access
 - [ ] Correct login works; wrong password and inactive user are rejected
 - [ ] Session expiry works
