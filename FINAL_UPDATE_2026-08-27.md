@@ -28,6 +28,6 @@
 4. Redeploy Vercel without old build cache.
 5. Hard refresh and complete `TESTING_CHECKLIST.md`.
 
-## Scope note
+## Production phase completion
 
-Requested administration, master and settings controls are functional. Advanced production execution—BOM auto-issue, consumption/return, QC output approval, scrap and automatic finished-stock posting—is the next implementation phase. The current PMS creates and tracks production batches safely.
+The consolidated build now includes BOM calculation, material issue, consumption/return/waste, QC output, approval-gated finished stock, scrap records and transfer dispatch/receive backend. See `PRODUCTION_PHASE_UPDATE_2026-08-27.md` for the required BOM setup and live test.
