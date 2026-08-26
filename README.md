@@ -14,9 +14,9 @@ Professional Production Management System (PMS) and Inventory Management System 
 - LockService, idempotency checks and user-friendly errors
 - Secure Vercel server proxy for Google Apps Script
 
-## Demo preview
+## Live data status
 
-The interface has prefilled preview credentials: username **admin**, password **Admin@123**. This is for UI review. After Sheets setup, use the real administrator and wire live requests through /api/erp.
+This version uses `/api/erp` for real login, dashboard refresh, Stock In/Out and production batch creation. It does not use a prefilled demo password or hard-coded dashboard data. See `MEETING_READY_STATUS.md` before deployment.
 
 ## Local run
 
