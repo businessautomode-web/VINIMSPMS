@@ -8,8 +8,8 @@
   "scripts": {
     "install:ci": "bash scripts/install-ci.sh",
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vite",
-    "build": "bash scripts/build-verified.sh",
-    "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
+    "build": "next build",
+    "start": "next start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "bash scripts/sites-env.sh -- eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "bash scripts/sites-env.sh -- drizzle-kit generate"
@@ -39,5 +39,5 @@
     "wrangler": "4.92.0"
   },
   "type": "module",
-  "displayName": "VIN GROUP PMS + IMS"
+  "displayName": "Shree Mahadhyuti Industries LLP PMS + Dual IMS"
 }
